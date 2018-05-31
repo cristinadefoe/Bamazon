@@ -30,15 +30,16 @@ CREATE TABLE products
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("P1", "D1", 1, 100),
-        ("P2", "D2", 1.1, 100),
-        ("P3", "D3", 1.2, 100),
-        ("P4", "D4", 1.3, 100),
-        ("P5", "D5", 1.4, 100),
-        ("P6", "D6", 1.5, 100),
-        ("P7", "D7", 1.6, 100),
-        ("P8", "D8", 1.7, 100),
-        ("P9", "D9", 1.8, 100),
-        ("P10", "D10", 1.9, 100);
+        ("OTTO Swivel Recliner", "Living", 3595, 100),
+        ("Aspen French Oak", "Dining", 2495, 100),
+        ("ST. James Armoire", "Bed", 2695, 100),
+        ("Belgian Linen Soap", "Bath", 22, 200),
+        ("Brutalist Lamp", "Lighting", 595, 100),
+        ("Vintage Rug", "Rugs", 5139, 100),
+        ("Dakota Rod Finnials", "Hardware", 49, 200),
+        ("Hanbel Pillow Collection", "Decor", 239, 200),
+        ("KOEN Lybaert Art", "Art", 3295, 50),
+        ("Provence Seating Collection", "Outdoor", 995, 100);
 
-    SELECT * FROM bamazon.products;
+    -- SELECT * FROM bamazon.products;
+    SELECT * FROM products;

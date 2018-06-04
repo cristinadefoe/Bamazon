@@ -65,14 +65,15 @@ var displayProducts = function () {
         if (error) throw error;
 
         // If a manager selects`View Products for Sale`, list item IDs, names, prices, and quantities.
-        console.log("Item ID\t", "Product Name\t", "Price\t", "Quantity\t")
+        // console.log("Item ID\t", "Product Name\t", "Price\t", "Quantity\t")
         console.log("---------------------------------------------------------------------------");
 
         for (var i = 0; i < response.length; i++) {
-            console.log(response[i].item_id + "\t" +
-                response[i].product_name + "\t" +
-                response[i].price + "\t" +
-                response[i].stock_quantity + "\t" + "\n");
+            console.log(
+                "Item ID: " + response[i].item_id + "\t" +
+                "Product: " + response[i].product_name + "\t" +
+                "\tPrice: " + response[i].price + "\t" +
+                "\tQty: " + response[i].stock_quantity + "\t" + "\n");
         }
         console.log("--------------------------------------------------------------------------");
 

@@ -119,11 +119,3 @@ function displayOrder(quantity, name, price) {
     // End the program
     process.exit();
 }
-
-// TO DO: orderTotal limit to 2 decimal. 
-// ?What is the item number of the product you would like to buy ? [If you want t
-// o quit, press 'Q'] 5
-//  ? How many units of the product would you like to buy ? 3
-// Item(s) purchased!
-// Thanks for your order! Please see details of your order below:
-// Total cost of purchase: $4.199999999999999

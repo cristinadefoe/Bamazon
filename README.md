@@ -1,4 +1,4 @@
-# Bamazon: Node.js & MySQL Homework #10
+# Bamazon: Javascript, Node.js & MySQL 
 
 This app is similar to Amazon's storefront; it displays the products available for sale and then the customer can place the order reducing inventory count. In addition, the manager can view inventory that has a quantity less than 5, manage existing inventory by increasing product quantity and adding new products.
 
@@ -10,7 +10,7 @@ Create MYSQL database called `bamazon`. Then make a table called `products` whic
 <img width="1277" alt="screen shot 2018-06-03 at 1 48 27 pm" src="https://user-images.githubusercontent.com/35505038/40890599-b1eca008-6735-11e8-9e2b-4c0ad418bd40.png">
 
 ## Deployment 
-### bamazonCustomer
+### Bamazon Customer
 
 Navigate to the root of your project. Then in the terminal command line run `node bamazonCustomer.js`, this will display the products available for sale.
 
@@ -20,7 +20,7 @@ Then it prompts the customer to provide the item number of the product they woul
 
 ![screen shot 2018-06-03 at 2 57 37 pm](https://user-images.githubusercontent.com/35505038/40891189-968b7b64-673e-11e8-9bc1-357f4168b94c.png)
 
-### bamazonManager
+### Bamazon Manager
 
 Navigate to the root of your project. Then in the terminal command line run `node bamazonManager.js`, this will display a menu option to the manager.
 

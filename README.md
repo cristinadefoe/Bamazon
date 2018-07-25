@@ -1,10 +1,11 @@
 # Bamazon: Javascript, Node.js & MySQL 
 
-This app is similar to Amazon's storefront; it displays the products available for sale and then the customer can place the order reducing inventory count. In addition, the manager can view inventory that has a quantity less than 5, manage existing inventory by increasing product quantity and adding new products.
+This app is similar to Amazon's storefront: the customer view displays the products available for sale and allows the customer to place an order reducing inventory count. In manager view, the manager can see available inventory with a quantity less than 5, manage existing inventory and add new products.
 
 ## Getting Started
 
-Create MYSQL database called `bamazon`. Then make a table called `products` which includes item_id, product_name, department_name, price and stock_quantity. We need to have some data in the table to test if the app works, so build 10 generic data. I love Restoration Hardware, so I used their product data in my table.
+Create MYSQL database called `bamazon`. Then create a table called `products` which includes item_id, product_name, department_name, price and stock_quantity. Next, add data in the table to test if the app works, I recommend using approximately 10 generic data. I love Restoration Hardware, so I used their product data in my table.
+
 #### Screenshot
 
 <img width="1277" alt="screen shot 2018-06-03 at 1 48 27 pm" src="https://user-images.githubusercontent.com/35505038/40890599-b1eca008-6735-11e8-9e2b-4c0ad418bd40.png">
@@ -49,7 +50,6 @@ If the manager, selects "Add a New Product", it will add a brand new product.
 
 ## Built With
 
-* Visual Studio Code (https://code.visualstudio.com) - Text editor
 * Javascript 
 * Node.js (https://nodejs.org/en) - Framework 
 * JSON (http://www.json.org) - Data format 
